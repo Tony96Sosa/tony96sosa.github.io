@@ -1,0 +1,14 @@
+@media only screen and (max-width: 480px){
+	h1{
+		font-size: 30px;
+	}
+	.seccion h2{
+		font-size: 20px;
+	}
+	ul{ 
+	width: 70%;
+	}
+	ul li a{
+	font-size: 20px;
+	}
+}
