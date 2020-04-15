@@ -27,6 +27,7 @@ h1{
 	width: 90%;
 	/*background: #99ff99;*/
 	margin: auto;
+	padding-bottom: 30px;
 }
 .seccion{
 	/*background: #ffcc66;*/
@@ -69,5 +70,27 @@ ul li a{
 ul li a:hover{
 	background: #d9d9d9;
 	color: #9999ff;
+}
+footer{
+	background-color: #d9d9d9;
+	padding: 10px 0;
+}
+
+.social-media{
+	width:90%;
+	margin:auto;
+	text-align: center;
+}
+.social-media a{
+	color: #001a21;
+	margin: 15px;
+	font-size: 22px;
+	text-decoration: none;
+}
+.rights-text{
+	width:90%;
+	margin:auto;
+	text-align: center;
+	padding-top: 10px;
 }
 
