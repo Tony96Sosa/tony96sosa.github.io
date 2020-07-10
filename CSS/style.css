@@ -83,7 +83,7 @@ body {
 
 .head-social-media-icon:hover {
     background-color: #fff;
-    color: #764ba2;
+    border: 1px solid #764ba2;
 }
 
 .head-social-media-icon img {
@@ -298,6 +298,10 @@ body {
     }
     .head-social-media {
         width: 85%;
+    }
+    .head-social-media-icon {
+        background-color: #fff;
+        border: 1px solid #764ba2;
     }
     .subtitulo {
         font-size: 30px;
