@@ -22,10 +22,10 @@ body {
 
 .subtitulo {
     text-align: center;
-    font-weight: 300;
     color: #9f8ad0;
     margin-bottom: 40px;
     font-size: 40px;
+    font-family: "Source Sans Pro", sans-serif;
 }
 
 
@@ -70,6 +70,27 @@ body {
     display: flex;
 }
 
+.head-social-media-icon {
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+
+.head-social-media-icon:hover {
+    background-color: #fff;
+    color: #764ba2;
+}
+
+.head-social-media-icon img {
+    width: 30px;
+    margin-top: 1rem;
+}
+
 
 /*-----------Sección Sobre Mí-----------------*/
 
@@ -92,8 +113,11 @@ body {
 
 .text-sobremi {
     line-height: 2em;
-    font-family: "Avenir-Light";
+    /* font-family: "Avenir-Light"; */
     font-size: 16px;
+    color: rgb(23, 1, 49);
+    text-align: justify;
+    font-family: "Source Sans Pro", sans-serif;
 }
 
 .contenedor-sobremi img {
@@ -232,7 +256,7 @@ body {
         font-size: 35px;
     }
     .contenedor-sobremi img {
-        width: 80%;
+        width: 200px;
         margin-top: 40px;
     }
     .contenedor-sobremi-info {
@@ -273,7 +297,7 @@ body {
         font-size: 25px;
     }
     .head-social-media {
-        width: 65%;
+        width: 85%;
     }
     .subtitulo {
         font-size: 30px;
@@ -281,13 +305,25 @@ body {
     .contenedor-sobremi-info {
         width: 100%;
     }
+    .contenedor-sobremi img {
+        width: 150px;
+    }
     .proyecto {
-        width: 80%;
+        width: 100%;
     }
     .social-media {
         width: 100%;
     }
     .contact-us {
         width: 90%;
+    }
+}
+
+
+/*-------------Responsive entre 0 y 300 pixeles de Altura-------------*/
+
+@media screen and (max-height: 300px) {
+    .head {
+        height: 70%;
     }
 }
