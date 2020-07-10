@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*-----------Todas las secciones tinen un..------------*/
+
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    /* hace que desaparesca todo lo que sale del contenedor  */
+    margin: auto;
+    padding: 60px 0;
+}
+
+.subtitulo {
+    text-align: center;
+    font-weight: 300;
+    color: #9f8ad0;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+
+/*--------------Cabecera---------------*/
+
+.header {
+    height: 100vh;
+    background-image: url(../IMG/ciudad.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+
+.head {
+    text-align: center;
+    padding: 0;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    background-color: rgba(169, 169, 169, 0.212);
+    border-radius: 10px;
+}
+
+.head-titulo {
+    font-size: 80px;
+    margin-bottom: 15px;
+}
+
+.head-puesto {
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.head-social-media {
+    margin-top: 20px;
+    display: flex;
+}
+
+
+/*-----------Sección Sobre Mí-----------------*/
+
+.sobre-mi {
+    background-color: #f2f2f2;
+}
+
+.contenedor-sobremi {
+    /* background-color: darkgoldenrod; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenedor-sobremi-info {
+    /* background-color: chartreuse; */
+    width: 60%;
+}
+
+.text-sobremi {
+    line-height: 2em;
+    font-family: "Avenir-Light";
+    font-size: 16px;
+}
+
+.contenedor-sobremi img {
+    width: 40%;
+    max-width: 300px;
+    border-radius: 50%;
+}
+
+
+/*-----------Seccion Portafolio-----------------*/
+
+.portafolio {
+    background-color: #c7c5c5;
+}
+
+.contenedor-portafolio {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.proyecto {
+    background: #fff;
+    width: 30%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    border: 1px solid #fff;
+    border-radius: 5%;
+}
+
+.proyecto-img {
+    width: 100%;
+}
+
+.proyecto-titulo {
+    color: #353535;
+    font-size: 20px;
+    padding: 20px;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+.proyecto-subtitulo {
+    color: #353535;
+    font-size: 16px;
+    padding: 20px;
+    padding-top: 0;
+    margin: 0;
+    font-family: "Avenir-Light";
+}
+
+.proyecto-subtitulo-2 {
+    padding: 20px;
+    margin: 0;
+    color: #353535;
+    font-size: 16px;
+    padding-bottom: 0;
+    font-family: "Avenir-Roman";
+}
+
+.proyecto-info {
+    margin: 0;
+    padding: 20px;
+    color: #353535;
+    box-sizing: border-box;
+    font-family: "Avenir-Light";
+}
+
+
+/* -------Footer--------- */
+
+.footer {
+    background-color: #9f8ad0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.contact-us {
+    width: 40%;
+    color: #fff;
+}
+
+.brand {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.brand+p {
+    font-weight: 500;
+}
+
+.social-media {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-media-icon {
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+
+.social-media-icon:hover {
+    background-color: #fff;
+    color: #764ba2;
+}
+
+.social-media-icon i {
+    font-size: 30px;
+    line-height: 60px;
+}
+
+
+/*-------------Responsive entre 500 y 800 pixeles-------------*/
+
+@media screen and (max-width: 800px) {
+    .head-titulo {
+        font-size: 60px;
+    }
+    .head-puesto {
+        font-size: 35px;
+    }
+    .contenedor-sobremi img {
+        width: 80%;
+        margin-top: 40px;
+    }
+    .contenedor-sobremi-info {
+        width: 80%;
+    }
+    .proyecto {
+        width: 45%;
+    }
+    .footer-content {
+        justify-content: center;
+    }
+    .head-social-media {
+        width: 45%;
+        justify-content: space-evenly;
+    }
+    .social-media {
+        width: 80%;
+        justify-content: space-evenly;
+    }
+    .social-media-icon {
+        margin-left: 0;
+    }
+    .contact-us {
+        text-align: center;
+        width: 80%;
+        margin-bottom: 40px;
+    }
+}
+
+
+/*-------------Responsive entre 0 y 500 pixeles-------------*/
+
+@media screen and (max-width: 500px) {
+    .head-titulo {
+        font-size: 30px;
+    }
+    .head-puesto {
+        font-size: 25px;
+    }
+    .head-social-media {
+        width: 65%;
+    }
+    .subtitulo {
+        font-size: 30px;
+    }
+    .contenedor-sobremi-info {
+        width: 100%;
+    }
+    .proyecto {
+        width: 80%;
+    }
+    .social-media {
+        width: 100%;
+    }
+    .contact-us {
+        width: 90%;
+    }
+}
