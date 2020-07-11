@@ -180,12 +180,38 @@ body {
     font-family: "Avenir-Roman";
 }
 
-.proyecto-info {
+.proyecto-tecnologias {
     margin: 0;
-    padding: 20px;
+    padding: 20px 20px 5px;
     color: #353535;
     box-sizing: border-box;
     font-family: "Avenir-Light";
+}
+
+.proyecto-titulo-enlace {
+    text-decoration: none;
+}
+
+.proyecto-repo-caja {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0 5px;
+}
+
+.proyecto-repo-enlace {
+    background-color: #a6a6a6;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 5px;
+    border-radius: 10px;
+    width: 90%;
+}
+
+.proyecto-repo-enlace_icon {
+    width: 35px;
 }
 
 
@@ -265,6 +291,12 @@ body {
     .proyecto {
         width: 45%;
     }
+    .proyecto-repo-enlace {
+        width: 70%;
+    }
+    .proyecto-repo-enlace_icon {
+        width: 30px;
+    }
     .footer-content {
         justify-content: center;
     }
@@ -314,6 +346,13 @@ body {
     }
     .proyecto {
         width: 100%;
+    }
+    .proyecto-repo-enlace {
+        width: 90%;
+        width: 70%;
+    }
+    .proyecto-repo-enlace_icon {
+        width: 30px;
     }
     .social-media {
         width: 100%;
