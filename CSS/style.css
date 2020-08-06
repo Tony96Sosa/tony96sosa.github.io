@@ -146,9 +146,12 @@ body {
     width: 40%;
     max-width: 300px;
     border-radius: 50%;
+    transition: all 0.25s ease-out 0s;
 }
 
-
+.contenedor-sobremi img:hover{
+    border-radius: 20px;
+}
 /*-----------Seccion Portafolio-----------------*/
 
 .portafolio {
