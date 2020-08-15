@@ -112,7 +112,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
 const displayPortfolioItems = (portfolioItems) => {
     let displayPortfolio = portfolioItems.map( (item) => {
-        return `<section class="proyecto">
+        return `<section class="wow proyecto">
         <header>
             <a href=${item.link} target="_blank" class="proyecto-titulo-enlace">
                 <h3 class="proyecto-titulo">${item.title}</h3>
@@ -148,7 +148,7 @@ const displayPortfolioButtons = () => {
     },["all"]);
 
     let categoryBtns = categories.map( (category) => {
-        return `<button class="filter-btn" 
+        return `<button class="wow filter-btn" 
         type="button" data-id=${category}>${category}</button>`;
     });
     categoryBtns = categoryBtns.join('');
