@@ -91,6 +91,16 @@ const portfolio = [
     },
     {
         id: 10,
+        title: "Count Down",
+        subtitle: "Práctica JavaScript y CSS",
+        category: "javascript",
+        link: "https://tony96sosa.github.io/CountDown/",
+        img: "IMG/Proyectos/count-down.gif",
+        tecnology: `HTML5, JavaScript, CSS3`,
+        repo: "https://github.com/Tony96Sosa/CountDown",
+    },
+    {
+        id: 11,
         title: "To Do List",
         subtitle: "Proyecto Personal",
         category: "react",
