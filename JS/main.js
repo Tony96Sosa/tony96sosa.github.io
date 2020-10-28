@@ -101,13 +101,93 @@ const portfolio = [
     },
     {
         id: 11,
-        title: "To Do List",
-        subtitle: "Proyecto Personal",
-        category: "react",
-        link: "https://github.com/Tony96Sosa/Reactjs-To-Do-List",
-        img: "IMG/Proyectos/to-do-list.gif",
-        tecnology: `React.js, Hooks, Styled Components`,
-        repo: "https://github.com/Tony96Sosa/Reactjs-To-Do-List",
+        title: "Social-Media-Dashboard",
+        subtitle: "Práctica HTML, CSS y JavaScript",
+        category: "css",
+        link: "https://tony96sosa.github.io/SocialMediaDashboard/",
+        img: "IMG/Proyectos/socialmediadashboard.gif",
+        tecnology: `HTML5, JavaScript, CSS3`,
+        repo: "https://github.com/Tony96Sosa/SocialMediaDashboard",
+    },
+    {
+        id: 12,
+        title: "Social-Media-Dashboard",
+        subtitle: "Práctica React.js",
+        category: "react.js",
+        link: "https://tony96sosa.github.io/SocialMediaDashboard-React/",
+        img: "IMG/Proyectos/socialmediadashboard-react.gif",
+        tecnology: `React.js, Hooks, GitHub-Pages`,
+        repo: "https://github.com/Tony96Sosa/SocialMediaDashboard-React",
+    },
+    {
+        id: 13,
+        title: "Calculadora",
+        subtitle: "Práctica React.js",
+        category: "react.js",
+        link: "https://tony96sosa-calculadora.web.app/",
+        img: "IMG/Proyectos/calculadora.gif",
+        tecnology: `React.js, Hooks, Firebase(hosting)`,
+        repo: "https://github.com/Tony96Sosa/CalcApp",
+    },
+    {
+        id: 14,
+        title: "To-do-list-react-1",
+        subtitle: "Práctica React.js",
+        category: "react.js",
+        link: "https://tony96sosa.github.io/TodoList-1-React/",
+        img: "IMG/Proyectos/to-do-list-react-1.gif",
+        tecnology: `React.js, Hooks, GitHub-Pages`,
+        repo: "https://github.com/Tony96Sosa/TodoList-1-React",
+    },
+    {
+        id: 15,
+        title: "To-do-list-react-1",
+        subtitle: "Práctica React.js, CSS",
+        category: "react.js",
+        link: "https://login-app1.vercel.app/",
+        img: "IMG/Proyectos/login-react-1.gif",
+        tecnology: `React.js, Hooks, Vercel(hosting)`,
+        repo: "https://github.com/Tony96Sosa/TodoList-1-React",
+    },
+    {
+        id: 16,
+        title: "Fitness-App",
+        subtitle: "Práctica React.js, CSS",
+        category: "react.js",
+        link: "https://fitness-app-cards.vercel.app/",
+        img: "IMG/Proyectos/fitness-app.gif",
+        tecnology: `React.js, Hooks, Vercel(hosting)`,
+        repo: "https://github.com/Tony96Sosa/FitnessApp-cards",
+    },
+    {
+        id: 17,
+        title: "DogBot",
+        subtitle: "Práctica React.js, CSS",
+        category: "react.js",
+        link: "https://dog-bot-iota.vercel.app/",
+        img: "IMG/Proyectos/dogbot.gif",
+        tecnology: `React.js, Hooks, Vercel(hosting)`,
+        repo: "https://github.com/Tony96Sosa/DogBot",
+    },
+    {
+        id: 18,
+        title: "Weather-App",
+        subtitle: "Práctica React.js, CSS",
+        category: "react.js",
+        link: "https://github.com/Tony96Sosa/WeatherApp",
+        img: "IMG/Proyectos/endesarrollo.gif",
+        tecnology: `React.js, Hooks, StoryBook, Material UI`,
+        repo: "https://github.com/Tony96Sosa/WeatherApp",
+    },
+    {
+        id: 1,
+        title: "Weather-App",
+        subtitle: "Práctica React.js, CSS",
+        category: "react.js",
+        link: "https://github.com/Tony96Sosa/GiffApp",
+        img: "IMG/Proyectos/endesarrollo.gif",
+        tecnology: `React.js, Hooks`,
+        repo: "https://github.com/Tony96Sosa/GiffApp",
     },
 ];
 
@@ -181,3 +261,15 @@ const displayPortfolioButtons = () => {
         });
     });
 };
+
+let position1 = pageYOffset;
+onscroll = () => {
+    let position2 = pageYOffset;
+    let navbar = document.querySelector('.header-navbar');
+    if(position1>=position2){
+        navbar.style.top='0';
+    }else{
+        navbar.style.top='-100px';
+    }
+    position1 = position2;
+}
