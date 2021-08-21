@@ -41,26 +41,6 @@ const portfolio = [
     },
     {
         id: 5,
-        title: "App lista de tareas 1",
-        subtitle: "Práctica JavaScript",
-        category: "javascript",
-        link: "https://tony96sosa.github.io/App-Lista-de-Tareas-Javascript/",
-        img: "IMG/Proyectos/app-lista-de-tareas-1.gif",
-        tecnology: `HTML5, CSS3, JavaScript`,
-        repo: "https://github.com/Tony96Sosa/App-Lista-de-Tareas-Javascript",
-    },
-    {
-        id: 6,
-        title: "App lista de tareas 2",
-        subtitle: "Práctica JavaScript",
-        category: "javascript",
-        link: "https://tony96sosa.github.io/App-Lista-de-Tareas-2/",
-        img: "IMG/Proyectos/app-lista-de-tareas-2.gif",
-        tecnology: `HTML5, Bootstrap, JavaScript, API-LocalStorage`,
-        repo: "https://github.com/Tony96Sosa/App-Lista-de-Tareas-2",
-    },
-    {
-        id: 7,
         title: "Color Flipper",
         subtitle: "Práctica JavaScript y CSS",
         category: "javascript",
@@ -70,7 +50,7 @@ const portfolio = [
         repo: "https://github.com/Tony96Sosa/Color-Flipper",
     },
     {
-        id: 8,
+        id: 6,
         title: "Counter",
         subtitle: "Práctica JavaScript y CSS",
         category: "javascript",
@@ -80,7 +60,7 @@ const portfolio = [
         repo: "https://github.com/Tony96Sosa/Counter",
     },
     {
-        id: 9,
+        id: 7,
         title: "Menu Filter",
         subtitle: "Práctica JavaScript y CSS",
         category: "javascript",
@@ -90,27 +70,7 @@ const portfolio = [
         repo: "https://github.com/Tony96Sosa/Menu-Filter",
     },
     {
-        id: 10,
-        title: "Count Down",
-        subtitle: "Práctica JavaScript y CSS",
-        category: "javascript",
-        link: "https://tony96sosa.github.io/CountDown/",
-        img: "IMG/Proyectos/count-down.gif",
-        tecnology: `HTML5, JavaScript, CSS3`,
-        repo: "https://github.com/Tony96Sosa/CountDown",
-    },
-    {
-        id: 11,
-        title: "Social-Media-Dashboard",
-        subtitle: "Práctica HTML, CSS y JavaScript",
-        category: "css",
-        link: "https://tony96sosa.github.io/SocialMediaDashboard/",
-        img: "IMG/Proyectos/socialmediadashboard.gif",
-        tecnology: `HTML5, JavaScript, CSS3`,
-        repo: "https://github.com/Tony96Sosa/SocialMediaDashboard",
-    },
-    {
-        id: 12,
+        id: 8,
         title: "Social-Media-Dashboard",
         subtitle: "Práctica React.js",
         category: "react.js",
@@ -120,7 +80,7 @@ const portfolio = [
         repo: "https://github.com/Tony96Sosa/SocialMediaDashboard-React",
     },
     {
-        id: 13,
+        id: 9,
         title: "Calculadora",
         subtitle: "Práctica React.js",
         category: "react.js",
@@ -130,7 +90,7 @@ const portfolio = [
         repo: "https://github.com/Tony96Sosa/CalcApp",
     },
     {
-        id: 14,
+        id: 10,
         title: "To-do-list-react-1",
         subtitle: "Práctica React.js",
         category: "react.js",
@@ -140,7 +100,7 @@ const portfolio = [
         repo: "https://github.com/Tony96Sosa/TodoList-1-React",
     },
     {
-        id: 15,
+        id: 11,
         title: "To-do-list-react-1",
         subtitle: "Práctica React.js, CSS",
         category: "react.js",
@@ -150,7 +110,7 @@ const portfolio = [
         repo: "https://github.com/Tony96Sosa/TodoList-1-React",
     },
     {
-        id: 16,
+        id: 12,
         title: "Fitness-App",
         subtitle: "Práctica React.js, CSS",
         category: "react.js",
@@ -160,7 +120,7 @@ const portfolio = [
         repo: "https://github.com/Tony96Sosa/FitnessApp-cards",
     },
     {
-        id: 17,
+        id: 13,
         title: "DogBot",
         subtitle: "Práctica React.js, CSS",
         category: "react.js",
@@ -170,24 +130,24 @@ const portfolio = [
         repo: "https://github.com/Tony96Sosa/DogBot",
     },
     {
-        id: 18,
-        title: "Weather-App",
-        subtitle: "Práctica React.js, CSS",
-        category: "react.js",
-        link: "https://github.com/Tony96Sosa/WeatherApp",
-        img: "IMG/Proyectos/endesarrollo.gif",
-        tecnology: `React.js, Hooks, StoryBook, Material UI`,
-        repo: "https://github.com/Tony96Sosa/WeatherApp",
+        id: 14,
+        title: "App lista de tareas 1",
+        subtitle: "Práctica JavaScript",
+        category: "javascript",
+        link: "https://tony96sosa.github.io/App-Lista-de-Tareas-Javascript/",
+        img: "IMG/Proyectos/app-lista-de-tareas-1.gif",
+        tecnology: `HTML5, CSS3, JavaScript`,
+        repo: "https://github.com/Tony96Sosa/App-Lista-de-Tareas-Javascript",
     },
     {
-        id: 1,
-        title: "Weather-App",
-        subtitle: "Práctica React.js, CSS",
-        category: "react.js",
-        link: "https://github.com/Tony96Sosa/GiffApp",
-        img: "IMG/Proyectos/endesarrollo.gif",
-        tecnology: `React.js, Hooks`,
-        repo: "https://github.com/Tony96Sosa/GiffApp",
+        id: 15,
+        title: "App lista de tareas 2",
+        subtitle: "Práctica JavaScript",
+        category: "javascript",
+        link: "https://tony96sosa.github.io/App-Lista-de-Tareas-2/",
+        img: "IMG/Proyectos/app-lista-de-tareas-2.gif",
+        tecnology: `HTML5, Bootstrap, JavaScript, API-LocalStorage`,
+        repo: "https://github.com/Tony96Sosa/App-Lista-de-Tareas-2",
     },
 ];
 
@@ -261,15 +221,3 @@ const displayPortfolioButtons = () => {
         });
     });
 };
-
-let position1 = pageYOffset;
-onscroll = () => {
-    let position2 = pageYOffset;
-    let navbar = document.querySelector('.header-navbar');
-    if(position1>=position2){
-        navbar.style.top='0';
-    }else{
-        navbar.style.top='-100px';
-    }
-    position1 = position2;
-}

@@ -44,28 +44,6 @@ body {
     align-items: center;
 }
 
-.header-navbar{
-    width: 100%;
-    height: 50px;
-    /* background-color: palegreen; */
-    position: fixed;
-    top: 0px;
-}
-
-.nav-brand{
-    background-color: palegreen;
-    width: 60px;
-    height: 60px;
-    border-radius: 100%;
-    display: flex;
-}
-
-.nav-brand ion-icon{
-    margin: auto;
-    color: black;
-    font-size: 40px;
-}
-
 .head {
     text-align: center;
     padding: 0;
