@@ -1,4 +1,5 @@
-import './App.css';
+import React from 'react';
+import Header from "./componentes/Header";
 
 const portfolio = [
   {
@@ -189,23 +190,10 @@ const portfolio = [
 const App = () => {
   return (
     <div className="App">
-      <header className="header" id="inicio">
-          <div className="contenedor head">
-              <h1 className="head-titulo">Anthony Sosa</h1>
-              <p className="head-puesto">Front-end Developer React.js Jr</p>
-              <div className="head-social-media">
-                  <a href="https://www.linkedin.com/in/kurt-anthony-sosa-448b0315b/" target="_blank" className="head-social-media-icon" rel="noreferrer">
-                      <img src="IMG/social/linkedin.png" alt="linkedin" />
-                  </a>
-                  <a href="https://github.com/Tony96Sosa" target="_blank" className="head-social-media-icon" rel="noreferrer">
-                      <img src="IMG/social/github-repo.png" alt="github" />
-                  </a>
-                  <a href="https://twitter.com/tony96sosa" target="_blank" className="head-social-media-icon" rel="noreferrer">
-                      <img src="IMG/social/twitter.png" alt="twitter" />
-                  </a>
-              </div>
-          </div>
-      </header>
+      <Header 
+        name="Anthony Sosa" 
+        profession="Front-end Developer React.js Jr" 
+      />
       <main>
         <section className="sobre-mi" id="sobre-mi">
             <div className="contenedor">

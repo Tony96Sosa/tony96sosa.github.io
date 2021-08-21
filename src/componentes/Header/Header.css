@@ -1,0 +1,68 @@
+/*--------------Cabecera---------------*/
+
+.header {
+    height: 100vh;
+    /* background-image: url(IMG/Proyectos/diseño-pagina-responsive.gif); */
+    /* background-image: url(/IMG/ciudad.jpg); */
+    background-color: darkcyan;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+  }
+  
+  .head {
+    text-align: center;
+    padding: 0;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    background-color: rgba(169, 169, 169, 0.212);
+    border-radius: 10px;
+  }
+  
+  .head-titulo {
+    font-size: 80px;
+    margin-bottom: 15px;
+    /* animation: flip; */
+    /* animation-duration: 1.3s; */
+  }
+  
+  .head-puesto {
+    font-size: 45px;
+    font-weight: 300;
+  }
+  
+  .head-social-media {
+    margin-top: 20px;
+    display: flex;
+  }
+  
+  .head-social-media-icon {
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    /* animation: zoomInUp;
+    animation-duration: 1.9s; */
+  }
+  
+  .head-social-media-icon:hover {
+    background-color: #fff;
+    border: 1px solid #764ba2;
+  }
+  
+  .head-social-media-icon img {
+    width: 30px;
+    margin-top: 1rem;
+  }
