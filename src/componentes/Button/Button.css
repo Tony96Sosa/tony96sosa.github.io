@@ -1,0 +1,31 @@
+/*-----------Sección Botones-----------------*/
+
+.btn-container{
+    height: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.filter-btn{
+    padding: 7px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #102a42;
+    border-radius: 7px;
+    outline: none;
+    cursor: pointer;
+    border: 3px solid #9f8ad0;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    background-color: transparent;
+    text-transform: capitalize;
+    margin: 5px 15px;
+    /* animation: rollIn;
+    animation-duration: 1.3s; */
+}
+
+.filter-btn:hover{
+    background-color: #9f8ad0;
+    color: #f2f2f2;
+}

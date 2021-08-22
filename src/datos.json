@@ -1,0 +1,152 @@
+[
+	{
+			"id": 1,
+			"title": "Diseño de Página Responsive",
+			"subtitle": "Proyecto Personal",
+			"category": "css",
+			"link": "https://tony96sosa.github.io/Pagina-Responsive-1/",
+			"img": "IMG/Proyectos/diseño-pagina-responsive.gif",
+			"tecnology": "HTML5, CSS3, JavaScript",
+			"repo": "https://github.com/Tony96Sosa/Pagina-Responsive-1"
+	},
+	{
+			"id": 2,
+			"title": "Aplicación de Notas",
+			"subtitle": "Proyecto Personal",
+			"category": "node",
+			"link": "https://tony96sosa-app.herokuapp.com/",
+			"img": "IMG/Proyectos/notes-app.jpg",
+			"tecnology": "HTML5, CSS3, JavaScript, NodeJS, MongoDB, Express.js, Passport.js, Handlebars, Bootstrap",
+			"repo": "https://github.com/Tony96Sosa/App-Notas"
+	},
+	{
+			"id": 3,
+			"title": "Responsive Animated Navbar",
+			"subtitle": "Práctica CSS",
+			"category": "css",
+			"link": "https://tony96sosa.github.io/Responsive-Animated-Navbar/",
+			"img": "IMG/Proyectos/navbar-responsive-1.gif",
+			"tecnology": "HTML5, CSS3, JavaScript",
+			"repo": "https://github.com/Tony96Sosa/Responsive-Animated-Navbar"
+	},
+	{
+			"id": 4,
+			"title": "Animated Hamburguer Menu",
+			"subtitle": "Práctica CSS",
+			"category": "css",
+			"link": "https://tony96sosa.github.io/Animated-Hamburguer-Menu/",
+			"img": "IMG/Proyectos/animacion-hamburguesa-1.gif",
+			"tecnology": "HTML5, CSS3, JavaScript",
+			"repo": "https://github.com/Tony96Sosa/Animated-Hamburguer-Menu"
+	},
+	{
+			"id": 5,
+			"title": "Color Flipper",
+			"subtitle": "Práctica JavaScript y CSS",
+			"category": "javascript",
+			"link": "https://tony96sosa.github.io/Color-Flipper/",
+			"img": "IMG/Proyectos/color-flipper.gif",
+			"tecnology": "HTML5, JavaScript, CSS3",
+			"repo": "https://github.com/Tony96Sosa/Color-Flipper"
+	},
+	{
+			"id": 6,
+			"title": "Counter",
+			"subtitle": "Práctica JavaScript y CSS",
+			"category": "javascript",
+			"link": "https://tony96sosa.github.io/Counter/",
+			"img": "IMG/Proyectos/counter.gif",
+			"tecnology": "HTML5, JavaScript, CSS3",
+			"repo": "https://github.com/Tony96Sosa/Counter"
+	},
+	{
+			"id": 7,
+			"title": "Menu Filter",
+			"subtitle": "Práctica JavaScript y CSS",
+			"category": "javascript",
+			"link": "https://tony96sosa.github.io/Menu-Filter/",
+			"img": "IMG/Proyectos/menu-filter.gif",
+			"tecnology": "HTML5, JavaScript, CSS3",
+			"repo": "https://github.com/Tony96Sosa/Menu-Filter"
+	},
+	{
+			"id": 8,
+			"title": "Social-Media-Dashboard",
+			"subtitle": "Práctica React.js",
+			"category": "react.js",
+			"link": "https://tony96sosa.github.io/SocialMediaDashboard-React/",
+			"img": "IMG/Proyectos/socialmediadashboard-react.gif",
+			"tecnology": "React.js, Hooks, GitHub-Pages",
+			"repo": "https://github.com/Tony96Sosa/SocialMediaDashboard-React"
+	},
+	{
+			"id": 9,
+			"title": "Calculadora",
+			"subtitle": "Práctica React.js",
+			"category": "react.js",
+			"link": "https://tony96sosa-calculadora.web.app/",
+			"img": "IMG/Proyectos/calculadora.gif",
+			"tecnology": "React.js, Hooks, Firebase(hosting)",
+			"repo": "https://github.com/Tony96Sosa/CalcApp"
+	},
+	{
+			"id": 10,
+			"title": "To-do-list-react-1",
+			"subtitle": "Práctica React.js",
+			"category": "react.js",
+			"link": "https://tony96sosa.github.io/TodoList-1-React/",
+			"img": "IMG/Proyectos/to-do-list-react-1.gif",
+			"tecnology": "React.js, Hooks, GitHub-Pages",
+			"repo": "https://github.com/Tony96Sosa/TodoList-1-React"
+	},
+	{
+			"id": 11,
+			"title": "To-do-list-react-1",
+			"subtitle": "Práctica React.js, CSS",
+			"category": "react.js",
+			"link": "https://login-app1.vercel.app/",
+			"img": "IMG/Proyectos/login-react-1.gif",
+			"tecnology": "React.js, Hooks, Vercel(hosting)",
+			"repo": "https://github.com/Tony96Sosa/TodoList-1-React"
+	},
+	{
+			"id": 12,
+			"title": "Fitness-App",
+			"subtitle": "Práctica React.js, CSS",
+			"category": "react.js",
+			"link": "https://fitness-app-cards.vercel.app/",
+			"img": "IMG/Proyectos/fitness-app.gif",
+			"tecnology": "React.js, Hooks, Vercel(hosting)",
+			"repo": "https://github.com/Tony96Sosa/FitnessApp-cards"
+	},
+	{
+			"id": 13,
+			"title": "DogBot",
+			"subtitle": "Práctica React.js, CSS",
+			"category": "react.js",
+			"link": "https://dog-bot-iota.vercel.app/",
+			"img": "IMG/Proyectos/dogbot.gif",
+			"tecnology": "React.js, Hooks, Vercel(hosting)",
+			"repo": "https://github.com/Tony96Sosa/DogBot"
+	},
+	{
+			"id": 14,
+			"title": "App lista de tareas 1",
+			"subtitle": "Práctica JavaScript",
+			"category": "javascript",
+			"link": "https://tony96sosa.github.io/App-Lista-de-Tareas-Javascript/",
+			"img": "IMG/Proyectos/app-lista-de-tareas-1.gif",
+			"tecnology": "HTML5, CSS3, JavaScript",
+			"repo": "https://github.com/Tony96Sosa/App-Lista-de-Tareas-Javascript"
+	},
+	{
+			"id": 15,
+			"title": "App lista de tareas 2",
+			"subtitle": "Práctica JavaScript",
+			"category": "javascript",
+			"link": "https://tony96sosa.github.io/App-Lista-de-Tareas-2/",
+			"img": "IMG/Proyectos/app-lista-de-tareas-2.gif",
+			"tecnology": "HTML5, Bootstrap, JavaScript, API-LocalStorage",
+			"repo": "https://github.com/Tony96Sosa/App-Lista-de-Tareas-2"
+	}
+]

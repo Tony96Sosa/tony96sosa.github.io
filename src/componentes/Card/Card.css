@@ -1,0 +1,118 @@
+/*-----------Card Proyectos-----------------*/
+
+.proyecto {
+    background: #fff;
+    width: 30%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    border: 1px solid #fff;
+    border-radius: 5%;
+    transition: 0.2s;
+    /* animation: zoomInUp;
+    animation-duration: 1.9s; */
+}
+
+.proyecto:hover{
+    transform: scale(1.06);
+    box-shadow: 12px 12px 10px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+.proyecto-img {
+    width: 100%;
+}
+
+.proyecto-titulo {
+    color: #353535;
+    font-size: 20px;
+    padding: 20px;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+.proyecto-subtitulo {
+    color: #353535;
+    font-size: 16px;
+    padding: 20px;
+    padding-top: 0;
+    margin: 0;
+    font-family: "Avenir-Light";
+}
+
+.proyecto-subtitulo-2 {
+    padding: 20px;
+    margin: 0;
+    color: #353535;
+    font-size: 16px;
+    padding-bottom: 0;
+    font-family: "Avenir-Roman";
+}
+
+.proyecto-tecnologias {
+    margin: 0;
+    padding: 20px 20px 5px;
+    color: #353535;
+    box-sizing: border-box;
+    font-family: "Avenir-Light";
+}
+
+.proyecto-titulo-enlace {
+    text-decoration: none;
+}
+
+.proyecto-repo-caja {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0 5px;
+}
+
+.proyecto-repo-enlace {
+    background-color: #a6a6a6;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 5px;
+    border-radius: 10px;
+    width: 90%;
+}
+
+.proyecto-repo-enlace_icon {
+    width: 35px;
+}
+
+/*-------------Responsive entre 500 y 800 pixeles-------------*/
+
+@media screen and (max-width: 800px) {
+    .proyecto {
+        width: 45%;
+    }
+    .proyecto-repo-enlace {
+        width: 70%;
+    }
+    .proyecto-repo-enlace_icon {
+        width: 30px;
+    }
+  }
+
+/*-------------Responsive entre 0 y 500 pixeles-------------*/
+
+@media screen and (max-width: 500px) {
+    .proyecto {
+        width: 100%;
+    }
+    .proyecto:hover{
+        transform: none;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    }
+    .proyecto-repo-enlace {
+        width: 90%;
+        width: 70%;
+    }
+    .proyecto-repo-enlace_icon {
+        width: 30px;
+    }
+  }
