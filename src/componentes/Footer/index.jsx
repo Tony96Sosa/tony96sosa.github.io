@@ -1,21 +1,23 @@
 import React from 'react';
 import './Footer.css';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faGithub, faTwitter, faLinkedinIn} from '@fortawesome/free-brands-svg-icons';
 
 const social = [
 	{
 		social_link: "https://www.linkedin.com/in/kurt-anthony-sosa-448b0315b/",
-		class: "wow social-media-icon",
-		classIcon: "bx bxl-linkedin",
+		class: "social-media-icon",
+		classIcon: faLinkedinIn,
 	},
 	{
 		social_link: "https://github.com/Tony96Sosa",
-		class: "wow social-media-icon",
-		classIcon: "bx bxl-github",
+		class: "social-media-icon",
+		classIcon: faGithub,
 	},
 	{
 		social_link: "https://twitter.com/tony96sosa",
-		class: "wow social-media-icon",
-		classIcon: "bx bxl-twitter",
+		class: "social-media-icon",
+		classIcon: faTwitter,
 	},
 ];
 
@@ -34,7 +36,7 @@ const Footer = ({ name, year }) => (
 							className={item.class}  
 							target="_blank" 
 							rel="noreferrer" >
-							<i className={item.classIcon}></i>
+								<i><FontAwesomeIcon icon={item.classIcon} /></i>
 						</a>
 					)
 				}
